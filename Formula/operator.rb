@@ -12,6 +12,7 @@ class Operator < Formula
     bin_path = buildpath/"src/github.com/operatorai/operator"
     bin_path.install Dir["*"]
     cd bin_path do
+      system "go", "get", "./..."
       system "go", "build", "-o", bin/"operator", "."
     end
   end
