@@ -1,8 +1,8 @@
 class Operator < Formula
   desc "🎯 operator is a CLI tool for creating and deploying cloud functions & docker containers for machine learning"
   homepage "https://github.com/operatorai"
-  url "https://github.com/operatorai/operator/archive/v0.0.0-alpha5.tar.gz"
-  sha256 "b6782ebcfca1d60267cb352192e935107ab47c641d863987b70c432f2046a353"
+  url "https://github.com/operatorai/operator/archive/v0.0.0-alpha6.tar.gz"
+  sha256 "a77fdd7637d114926591895558a58a7fe5cd36f0c1ca9b9da280bd629b28ba24"
   license "Apache-2.0"
 
   depends_on "go" => :build
