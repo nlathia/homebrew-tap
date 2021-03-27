@@ -1,4 +1,4 @@
-class Operator < Formula
+class KettleCli < Formula
   desc "🎯 operator is a CLI tool for creating and deploying cloud functions & docker containers for machine learning"
   homepage "https://github.com/operatorai"
   url "https://github.com/operatorai/kettle-cli/archive/refs/tags/v0.0.2.tar.gz"
