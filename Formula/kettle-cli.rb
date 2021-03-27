@@ -1,8 +1,8 @@
 class Operator < Formula
   desc "🎯 operator is a CLI tool for creating and deploying cloud functions & docker containers for machine learning"
   homepage "https://github.com/operatorai"
-  url "https://github.com/operatorai/kettle-cli/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "5f62e0d17fa18d4f66881489109ebb230790491c2d46a7db2f49f0e47c14e842"
+  url "https://github.com/operatorai/kettle-cli/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "a64344906ecd67e51786a44077411afc6b049b36c9f54d96d809c8b93b6bb6c8"
   license "Apache-2.0"
 
   depends_on "go" => :build
