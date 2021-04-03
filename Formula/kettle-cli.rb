@@ -1,8 +1,8 @@
 class KettleCli < Formula
   desc "🎯 kettle is a CLI tool for creating and deploying machine learning projects"
-  homepage "https://github.com/operatorai"
-  url "https://github.com/operatorai/kettle-cli/archive/refs/tags/v0.0.21.tar.gz"
-  sha256 "358ba61554600bd47c314eeba467db9d033e3c73e920a600a8b9ed2470a41246"
+  homepage "https://www.operator-ai.com/"
+  url "https://github.com/operatorai/kettle-cli/archive/refs/tags/v0.0.22.tar.gz"
+  sha256 "11cfb546add3d2e158378a20c6b61b6864b04ef96f5f07ed1063ccee086215d1"
   license "Apache-2.0"
 
   depends_on "go" => :build
