@@ -1,15 +1,15 @@
 class KettleCli < Formula
-  desc "🎯 kettle is a CLI tool for creating and deploying machine learning projects"
+  desc "🎯 kettle is a CLI tool for creating and deploying serverless services"
   homepage "https://www.operator-ai.com/"
-  url "https://github.com/operatorai/kettle-cli/archive/refs/tags/v0.0.23.tar.gz"
-  sha256 "6cec7fbe85d6f080fc37687bb9ccfd750640cd376bb149fd04c7908bc73c2f4c"
+  url "https://github.com/nlathia/kettle-cli/archive/refs/tags/v0.0.24.tar.gz"
+  sha256 "a6fec6c86c6640a945198e6195a9111c794d4c78af845cb09ea8875216d52af9"
   license "Apache-2.0"
 
   depends_on "go" => :build
 
   def install
     ENV["GOPATH"] = buildpath
-    bin_path = buildpath/"src/github.com/operatorai/kettle-cli"
+    bin_path = buildpath/"src/github.com/nlathia/kettle-cli"
     bin_path.install Dir["*"]
     cd bin_path do
       system "go", "get", "./..."
